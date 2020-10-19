@@ -1,0 +1,80 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+.page-main {
+    margin: 0 20px;
+}
+
+.page-description {
+    color: green;
+    /* font-size: 10px; */
+}
+
+.page-title {
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+p,
+h1 {
+    color: tan;
+}
+
+.navbar {
+    display: flex;
+    background: linear-gradient(to bottom, #3f3d56d9, rgba(0, 0, 0, 0.70));
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.page-banner {
+    background: linear-gradient(to top, #3f3d5690, rgba(0, 0, 0, 0.70)), url(../images/undraw_launch_day_4e04.svg);
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.nav-links {
+    margin: 0;
+}
+
+.nav-link-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-link-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 40px;
+}
+
+.logo-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+}
+
+.logo-link span {
+    font-size: 30px;
+    font-weight: bold;
+}
